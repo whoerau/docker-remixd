@@ -23,5 +23,6 @@
       restart: unless-stopped
   ```
 - only http://remix.ethereum.org can be connected ("http" no ssl)
-When the container is successfully started, it can be used to make files from the local file system available
+  
+  When the container is successfully started, it can be used to make files from the local file system available
 in the remix IDE (http://remix.ethereum.org).
