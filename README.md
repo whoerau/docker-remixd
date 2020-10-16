@@ -14,7 +14,7 @@
   version: '3'
   services:
     remixd:
-      image: mnxzyw/remixd
+      image: remixd
       container_name: remixd
       volumes:
         - ${FILE_PATH}:/app
